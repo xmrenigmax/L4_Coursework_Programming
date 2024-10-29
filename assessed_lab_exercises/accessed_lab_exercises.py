@@ -224,7 +224,6 @@ def calculate_weekly_pay(hours_worked):
     return total_pay
     
 # # Code Example
-'''
+
 overtime_pay = calculate_weekly_pay(36) # return 438 i.e, 438 in pounds per week.
 print(overtime_pay)
-'''
