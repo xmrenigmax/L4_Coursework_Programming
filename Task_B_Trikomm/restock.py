@@ -25,6 +25,5 @@ def restock_inventory(available_items, inventory_records, current_day):
         
     # Update inventory records for the current day with restocked units
         inventory_records.append([current_day, 0, restocked_units, available_items])
-
     # Return the updated available items
     return available_items
