@@ -101,8 +101,10 @@ def is_prime(num):
     ## int(num**0.5) + 1 == the square root of the number + 1 
     ## this is because the factors of a number are always less than or equal to the square root of the number
     for i in range(2, int(num**0.5) + 1):
+
         if num % i == 0:
             return not output
+        
     return output
 
 def are_anagrams(str1, str2):
